@@ -1,0 +1,111 @@
+####################################
+#             TabConfig            #
+#       Simple config based        #
+#      custom tab list for the     #
+#              TabAPI              #
+#                                  #
+#          Double0negative         #
+#         http://mc-sg.org         #
+####################################
+
+# Change the update time in seconds. Higher update times 
+# will result in more data usage. Setting this to -1
+# will disable continuous updates. 
+updateTimer: 5
+
+#Set the global tab
+#format
+#
+#
+#row1:
+# - column1
+# - column2
+# - column3
+#row2:
+# - column1
+# - column2
+# - column3
+#
+#
+# Variables: 
+# {online}      = players online
+# {max}         = max players online
+# {player}      = player name
+# {displayname} = player display name (what shows up in chat)
+# {tabname}     = player tab name (what normally shows up in the tab)
+# {servername}  = Server name
+#
+# {fillplayers} = auto fill the reset of the tab with the online player list
+#
+# {ping!serverip.com!online} = Pings an external server for online players
+# {ping!serverip.com!max}    = Pings an external server for max players
+#
+# NOTES: Max char lenght per slot is 16 characters. no two tabs can be identical.
+#        If your tab is 14 char or less long a unique char sequence will be added 
+#        to the end of the tab making it unique.  
+#
+#
+#
+tab:
+  1:
+  - '&2Welcome To'
+  - '&4G&fSquad &8Network'
+  - '&2{player}'
+  2:
+  - '&4★★★★★★★★★★★'
+  - '&5★★★★★★★★★★★'
+  - '&6★★★★★★★★★★★'
+  3:
+  - '&4Credits:'
+  - '{CreditsVaraible}'
+  - ''
+  4:
+  - '&4Rank:'
+  - '{Rank}'
+  - ''
+  5:
+  - ''
+  - ''
+  - ''
+  6:
+  - '&aHub Players:'
+  - '&e{online}&f/&e{max}'
+  - ''
+  7:
+  - '&aFaction Players:'
+  - '&e{ping!162.252.85.112:50000!online}&f/&e{ping!162.252.85.112:50000!max}'
+  - ''
+  8:
+  - '&aOP Prison Players:'
+  - '&e{ping!162.252.85.112:50000!online}&f/&e{ping!162.252.85.112:50000!max}'
+  - ''
+  9:
+  - '&aCreative Players:'
+  - '&e{ping!162.252.85.112:50000!online}&f/&e{ping!162.252.85.112:50000!max}'
+  - ''
+  10:
+  - ''
+  - ''
+  11:
+  - ''
+  - ''
+  - ''
+  12:
+  - '&3Website:'
+  - 'www.GSquadNetwork.com'
+  - ''
+  13:
+  - '&3Store'
+  - 'www.GSquadStore.com'
+  - ''
+  14:
+  - ''
+  - ''
+  - ''
+  15:
+  - ''
+  - ''
+  - ''
+  16:
+  - '&3Online Staff'
+  - '{fillplayers}'
