@@ -1,4 +1,4 @@
-name: GSquadHub
+name: HubMenu
 main: com.buzzyog.gsquad.hub.Main
 version: 1.0
 author: BuzzyOG
@@ -7,7 +7,4 @@ commands:
   dev:
      description: Main COmmand
      usage: /dev
-  gsquad:
-     description: Mainww COmmand
-     usage: /gsquad
   
