@@ -1,10 +1,15 @@
 name: HubMenu
-main: com.buzzyog.gsquad.hub.Main
+main: com.buzzyog.hubmenu.Main
 version: 1.0
 author: BuzzyOG
-softdepend: [Votifier]
+softdepend: [Votifier, EchoPets]
 commands:
-  dev:
+  shops:
      description: Main COmmand
-     usage: /dev
-  
+     usage: /shops
+  credits:
+     description: Main COmmand
+     usage: /credits
+  menu:
+     description: Main COmmand
+     usage: /menu

@@ -3,5 +3,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/Users/Peyton/Documents/Minecraft Plugin Development/Sources/craftbukkit-1.7.9-R0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Peyton/Documents/Minecraft Plugin Development/Sources/Votifier.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Peyton/Documents/Minecraft Plugin Development/Sources/EchoPet-v2.3.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
